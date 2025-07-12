@@ -1,5 +1,6 @@
+
 /*
-19. Grid styling and custom variables
+19. Grid styling and custom variables 
 
 Based on styles/18-style.css:
 
@@ -29,7 +30,7 @@ For all ul tag in the footer class, align the text to the right
 */
 
 :root {
-    /*  text color */
+    /*  text color*/
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -39,8 +40,8 @@ For all ul tag in the footer class, align the text to the right
     --section-title-color: var(--color-black);
     --nav-item-link-hover: var(--color-primary);
 
-    /* font-family */
-    --font-family-base: 'Open Sans','Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+    /* font-family*/
+    --font-family-base: 'Open Sans','Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'; 
     --font-family-title: 'Raleway','Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
     --nav-item-font-family: var(--font-family-title);
 
@@ -69,7 +70,7 @@ For all ul tag in the footer class, align the text to the right
     /* transforms */
     --section-tagline-transform: uppercase;
 
-    /* margins paddings */
+    /* margins paddings*/
     --section-title-margin: 0;
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
@@ -96,7 +97,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 *, *:before, *:after {
     box-sizing: border-box;
-}
+  }
 
 html {
     scroll-behavior: smooth;
@@ -111,7 +112,7 @@ body {
     line-height: var(--line-height-base);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6  {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
@@ -142,7 +143,7 @@ a:active {
 }
 
 .section {
-    padding: var(--section-padding);
+   padding: var(--section-padding); 
 }
 
 .section-header {
@@ -214,8 +215,6 @@ a:active {
     color: var(--nav-item-link-hover);
 }
 
-/* === Task 19 === */
-
 ul.row {
     margin: 0;
     padding: 0;
@@ -234,7 +233,7 @@ ul.row {
     padding: 0.5rem;
 }
 
-.footer .footer-copyright {
+.footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
